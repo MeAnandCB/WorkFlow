@@ -1,0 +1,13 @@
+{
+  "name": "taskflow",
+  "version": "1.0.0",
+  "description": "Local project management tool: projects, boards, sprints, time tracking, reminders, team chat and reports",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "start": "node server/server.js",
+    "local": "node server/server.js",
+    "test": "node test/test.js"
+  }
+}
